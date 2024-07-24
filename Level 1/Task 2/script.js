@@ -1,5 +1,4 @@
 document.addEventListener("DOMContentLoaded", function() {
-    // Smooth scrolling for navigation links
     document.querySelectorAll('nav ul li a').forEach(anchor => {
         anchor.addEventListener('click', function(e) {
             e.preventDefault();
@@ -9,7 +8,6 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     });
 
-    // Event listeners for buttons
     document.querySelectorAll('.btn-consult, .btn-request-consult').forEach(button => {
         button.addEventListener('click', function() {
             alert('Consultation request submitted!');
